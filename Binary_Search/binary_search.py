@@ -1,3 +1,6 @@
+#Bryan Chora 09/15/2024 Leetcode: Binary Search
+#This algorithms will do a banary search to fine the target number
+#from a sorted array  otherwise will return -1 
 class Solution(object):
     def search(self, nums, target):
 

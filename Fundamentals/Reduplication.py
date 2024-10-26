@@ -1,4 +1,4 @@
-#Bryan Chora 9/25/2024 Kattis Reduplication
+#Bryan Chora 9/25/2024 Kattis: Reduplication
 
 '''
 This function will reduplicate the same string and return it 

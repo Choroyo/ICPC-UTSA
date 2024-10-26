@@ -1,4 +1,4 @@
-#Bryan Chora 9/24/2024 Codeforces watermelon
+#Bryan Chora 9/24/2024 Codeforces: watermelon
 #Enter the kg of the watermelon
 weight = int(input())
 

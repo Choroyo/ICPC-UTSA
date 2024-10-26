@@ -1,4 +1,4 @@
-#Bryan Chora 9/24/2024 Codeforces soldier and bananas
+#Bryan Chora 9/24/2024 Codeforces: soldier and bananas
 
 '''
 This function will calculate the bananas total cost

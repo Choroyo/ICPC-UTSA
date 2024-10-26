@@ -1,7 +1,9 @@
-# The isBadVersion API is already defined for you.
-# @param version, an integer
-# @return a bool
-# def isBadVersion(version):
+#Bryan Chora 10/25/2024 Leetcode: First Bad Version
+'''
+This will return the first bad version inside a array
+where before the first bad version all are good version
+and after all are bad version 
+'''
 
 class Solution(object):
     def firstBadVersion(self, n):
