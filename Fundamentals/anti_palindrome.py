@@ -7,21 +7,24 @@ line = input()
 
 simpleString = ''.join(char.lower() for char in line if char.isalnum())
 
-inversString = simpleString[::-1]
-
 isPalindrome = False
 
-print(simpleString,inversString)
-for i in range(len(simpleString) - 1):
-    print( simpleString[i] , inversString[(len(simpleString) - 1) - (i + 1)])
-    if simpleString[i] == inversString[(len(simpleString) - 1) - (i + 1)]:
-        print( simpleString[i + 1] , inversString[(len(simpleString) - 1) - i])
-        if simpleString[i + 1] == inversString[(len(simpleString) - 1) - i] and i < len(simpleString):
-            isPalindrome = True
+if simpleString == simpleString [::-1]:
+        isPalindrome = True
+else:
+    for lenght in range(2, len(simpleString) + 1):
+        print(lenght)
+        if isPalindrome:
             break
+        for i in range(len(simpleString) - lenght + 1):       
+            substring = simpleString[i : i + lenght]
+            if substring == substring [::-1]:
+                isPalindrome = True
+        
 if isPalindrome:
     print("Palindrome")
 else:
     print("Anti-palindrome")
-    
 
+
+    
