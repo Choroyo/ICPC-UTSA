@@ -13,10 +13,14 @@ n = int(input())
 #initilize array of keywords
 keywords = []
 
+#input skill in range n
 for _ in range(n):
+    #get input
     keyword = input()
+    #normalize the input
     skill = (keyword.replace('-', ' ')).lower()
-
+    #add the skill into the array
     keywords.append(skill)
 
+#print the number of unique skills 
 print(len(set(keywords)))    
