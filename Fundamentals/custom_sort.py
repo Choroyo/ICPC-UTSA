@@ -20,7 +20,6 @@ class Solution(object):
         #populate outOrder 
         for char in s:
             outOrder.append(char)
-        
         #start sorting by order 
         for ch in order:
             for letter in outOrder[:]:
