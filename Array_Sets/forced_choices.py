@@ -1,7 +1,9 @@
 #Bryan Chora 11/07/2024 Kattis: Forced Choice
 
 """
-This program will 
+This program will keep the set of cards where the secret card belongs then every time is
+gonna try to remove the card that we dont need withour removing the card that is secret
+and the end of all command the secret card is gonna only remains in the set card
 """
 cards, secret, steps = map(int,input().split())
 
